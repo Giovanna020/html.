@@ -1,0 +1,101 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+
+<body>
+    <a href="index.html"> Voltar</a>
+    <h1>Agendamento para banho e tosa</h1>
+
+    <h2>Faça o seu agendamento com pelo menos 48 horas de antecendência</h2>
+
+    <form action="Obrigado.html">
+        <fieldset>
+            <legend>Dados do dono do Animal</legend>
+            <div>
+                <label>N</label>
+                <input type="text" placeholder="Aurora">
+            </div>
+            <br>
+            <div>
+                <label>Endereço</label>
+                <input type="text" placeholder="Rua 15 de novembro, N°42">
+            </div>
+            <br>
+            <div>
+                <label>Cep</label>
+                <input type="text" placeholder="12040268">
+            </div>
+            <br>
+            <div>
+                <label>E-mail</label>
+                <input type="text" placeholder="aurorarobert8@gmail.com">
+            </div>
+            <br>
+            <div>
+                <label>Celular</label>
+                <input type="text" placeholder="2596385219">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Informações do Animal</legend>
+            <label>Nome</label>
+            <input type="text" placeholder="Stela">
+            </div>
+            <div>
+                <input: type="text" placeholder="Stela" size="60">
+            </div>
+            <br>
+            <div>
+                <label>Porte do cão</label>
+                <Input type="radio" name="porte" value="porte-pq"> <label>Pequeno</label>
+                <Input type="radio" name="porte" value="porte-md"> <label>Médio</label>
+                <Input type="radio" name="porte" value="porte-gd"> <label>Grande</label>
+            </div>
+            <div>
+                <label>Tipo de tosa</label>
+                <select name="tipo-tosa">
+                    <option value="">Nenhum</option>
+                    <option value="tosa-padrão">Tosa Padrão</option>
+                    <option value="tosa-higiênica">Tosa Higiênica</option>
+                    <option value="tosa-tesoura">Tosa Tesoura</option>
+                    <option value="tosa-raça">Tosa Raça</option>
+                    <option value="tosa-bebe">Tosa Bebê</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label>Observações</label>
+                <textarea placeholder="Observações..."></textarea>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Informações do agendamento:</legend>
+            <div>
+                <label type="checkbox" value="terça-feira">Terça-feira</label>
+                <label type="checkbox" value="quarta-feira">Quarta-feira</label>
+                <label type="checkbox" value="quinta-feira">Quinta-feira</label>
+                <label type="checkbox" value="sexta-feira">Sexta-feira</label>
+                <label type="checkbox" value="sabado">Sábado</label>
+            </div>
+            <br>
+            <div>
+                <label>Primeira opção de horário</label>
+                <input type="time">
+            </div>
+            <br>
+            <div>
+                <label>Segunda opção de horário</label>
+                <input type="time">
+            </div>
+        </fieldset>
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+
+</body>
+
+</html>

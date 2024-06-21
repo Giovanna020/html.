@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>imagens</h2>
+
+    <img src="multimidia/ms-facebook.gif" alt="">
+    <figure>
+        <img src="multimidia/ms-facebook.gif" alt="ms-facebook">
+        <img src="multimidia/ms-pinterest.gif" alt="ms-pinterest">
+        <img src="multimidia/ms-twitter.gif" alt="X">
+
+        <figcaption>Redes Sociais</figcaption>
+    </figure>
+    <hr>
+    <h2>tabela</h2>
+    <table border="1">
+        <!-- cabeçalho da tabela -->
+        <thead>
+            <!-- table row -->
+            <tr>
+                <th>Curso</th>
+                <th>Unidade Curricular</th>
+                <th>Carga Horaria</th>
+                <th>Sala</th>
+            </tr>
+        </thead>
+        <!--corpo da tabela-->
+        <tbody>
+            <tr>
+                <td>Programador Web</td>
+                <td>UC 1 - Ux</td>
+                <td>36h</td>
+                <td>laboratorio 6</td>
+            </tr>
+            <tr>
+                <td>Programador Web</td>
+                <td>UC 2 - Front-end</td>
+                <td>96h</td>
+                <td>Laboratorio 6</td>
+            </tr>
+        </tbody>
+        <!-- rodapé da tabela-->
+
+    </table>
+    <hr>
+    <table border="1">
+        <!-- cabeçalho da tabela -->
+        <thead>
+            <!-- table row -->
+            <tr>
+                <th> Livros </th>
+                <th> Quantidade </th>
+            </tr>
+        </thead>
+        <!-- Corpo da Tabela-->
+        <tbody>
+            <tr>
+                <td>Excel 2013</td>
+                <td>200</td>
+            </tr>
+            <tr>
+                <td>HTML5 / CSS3</td>
+                <td>180</td>
+            </tr>
+            <TR>
+                <td>PowerPoint 2013</td>
+                <td>100</td>
+            </TR>
+            <tr>
+                <td>AutorCAD 2015</td>
+                <td>120</td>
+            </tr>
+        </tbody>
+        <hr>
+        <table border="1">
+            <hr>
+            <caption>Editora Senac</caption>
+            <tr>
+                <th>
+                <td>livro</td>
+                <td>Excel 2013</td>
+                <td>HTML5 / CSS3</td>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                <td>Quantidade</td>
+                <td>200</td>
+                <td>180</td>
+                </th>
+            </tr>
+        </table>
+        <hr>
+
+        <!--Mesclar colunas-->
+        <h2>Colspan</h2>
+        <table border="1">
+            <tr>
+                <th colspan="2">Celula expandida em varias colunas</th>
+            </tr>
+            <tr>
+                <td>Exemplo de Colspan</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Fevereiro</td>
+                <td>10</td>
+            </tr>
+        </table>
+
+        <!-- Mesclar Linhas-->
+        <h2>Rowspan</h2>
+        <table border="1">
+            <tr>
+                <th>Mês</th>
+                <th>Valores</th>
+                <th>Exemplo de Rowspan</th>
+            </tr>
+            <tr>
+                <td>Janeiro</td>
+                <td>30</td>
+                <td rowspan="2">Célula expandida em várias linhas</td>
+            </tr>
+            <tr>
+                <td>Fevereiro</td>
+                <td>15</td>
+            </tr>
+        </table>
+        <hr>
+        <h2>Produtos</h2>
+        <table border="1">
+
+            <tr>
+                <th>Porte</th>
+                <th colspan="2">Marca</th>
+                <th>Preço</th>
+
+            </tr>
+            <tr>
+                <td rowspan="2">Pequeno</td>
+                <td>Vestibulum</td>
+                <td>
+                    <img src="multimidia/pq_emb_filhote1.png" alt="1">
+                </td>
+                <td>R$ 5,00</td>
+            </tr>
+            <tr>
+                <td>Nunc</td>
+                <td><img src="multimidia/pq_emb_pequeno2.png" alt=""></td>
+                <td>R$ 4,80</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Médio</td>
+                <td>Mollis</td>
+                <td>
+                    <img src="multimidia/pq_emb_medio1.png" alt="">
+                </td>
+                <td>R$ 6,90</td>
+            </tr>
+            <td>Portitor</td>
+            <td>
+                <img src="multimidia/pq_emb_medio2.png" alt="">
+            </td>
+            <td>R$ 3,90</td>
+            <tr>
+                <td rowspan="2">Grande</td>
+                <td>Lacinia</td>
+                <td>
+                    <img src="multimidia/pq_emb_grande1.png" alt="">
+                </td>
+                <td>R$6,90</td>
+            </tr>
+            <tr>
+                <td>Sapien</td>
+                <td>
+                    <img src="multimidia/pq_emb_grande2.png" alt="">
+                </td>
+                <td>R$ 3,90</td>
+            </tr>
+            <tr>
+                <td colspan="4"> Consulte nossos preços para grandes quantidades </td>
+            </tr>
+
+        </table>
+
+</body>
+
+</html>
